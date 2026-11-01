@@ -32,5 +32,5 @@ Les progrès et les mots restent dans le navigateur de l'appareil (clé `marc.bo
 - `index.html` : toute l'appli (HTML, CSS et JavaScript, sans bibliothèque). La liste des mots est le tableau `WORDS`.
 - `sw.js` et `manifest.webmanifest` : mode hors ligne et installation. Après une modification des fichiers de l'appli, changer la valeur de `CACHE` dans `sw.js`.
 - `fonts/` : polices Fredoka et Nunito (licence SIL Open Font License, voir les fichiers `OFL-*.txt`).
-- `icons/` : icône de l'appli.
+- `icons/` : icône de l’appli (coins arrondis, version « maskable » pour Android, version iPhone).
 - `tests/telephone.cjs` et `.github/workflows/test-telephone.yml` : après chaque mise en ligne, GitHub ouvre le site publié dans Chrome au format téléphone (7 tailles d'écran), joue trois mots et vérifie que l'écran de jeu ne défile pas et qu'il n'y a pas d'erreur. Résultat et captures dans l'onglet Actions. Lancement local : `npm install --no-save playwright && node tests/telephone.cjs` (ou `node tests/telephone.cjs http://localhost:8000/` pour une copie locale).

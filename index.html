@@ -7,6 +7,7 @@
 <meta name="description" content="c ou ç ? g, ge ou gu ? s ou ss ? Écouter un mot et choisir la bonne lettre, avec la règle sous les yeux.">
 <meta name="theme-color" content="#FFF4FA" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#1E1933" media="(prefers-color-scheme: dark)">
+<meta name="appli-marc" content="oui">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Le bon son">
 <link rel="manifest" href="manifest.webmanifest">
@@ -483,7 +484,7 @@ body.playing .entete { display: none; }
 <body>
 <div class="wrap">
   <header class="entete">
-    <a class="rond" href="https://lechampdelaurore-boop.github.io/" aria-label="Mes applis" title="Mes applis">🏠</a>
+    <a class="rond" href="/" aria-label="Mes applis" title="Mes applis">🏠</a>
     <h1 class="titre">Le bon son</h1>
     <button class="rond" type="button" id="gearBtn" aria-label="Réglages" title="Réglages">⚙</button>
   </header>
@@ -1777,7 +1778,7 @@ body.playing .entete { display: none; }
   renderSetup();
   readHash();
 
-  if ('serviceWorker' in navigator && location.protocol === 'https:') {
+  if ('serviceWorker' in navigator && (location.protocol === 'https:' || location.hostname === 'localhost')) {
     window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
   }
 })();
