@@ -22,7 +22,7 @@ Une mini-appli pour s'entraîner aux lettres qui changent de son : **c ou ç**, 
 - **Mes mots** (dans le carnet) : on ajoute à la main les mots des devoirs ou des dictées. L'appli trouve toute seule le son à travailler dans chaque mot. Les mots peuvent être envoyés sur un autre appareil par un lien qui les contient.
 - La voix de synthèse lit les mots si l'appareil a une voix française. Sinon, un petit dessin aide à reconnaître le mot.
 - Réglages (bouton ⚙) : voix, sons et animations, chacun désactivable. L'appli respecte aussi le réglage « réduire les animations » de l'appareil.
-- Design commun à toutes les applis de Marc (charte v1 : couleurs, formes, en-tête 🏠 · titre · ⚙).
+- Design commun à toutes les applis (charte v1 : couleurs, formes, en-tête 🏠 · titre · ⚙).
 - S'installe sur l'écran d'accueil d'un téléphone ou d'une tablette et fonctionne hors ligne.
 
 Les progrès et les mots restent dans le navigateur de l'appareil (clé `marc.bon-son`) : aucun compte, et rien n'est envoyé sur internet.
