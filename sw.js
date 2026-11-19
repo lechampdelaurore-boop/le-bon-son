@@ -1,6 +1,6 @@
 // Garde l'appli disponible hors ligne.
 // Changer CACHE à chaque mise à jour des fichiers listés ci-dessous.
-var CACHE = 'le-bon-son-v2';
+var CACHE = 'le-bon-son-v3';
 var FILES = [
   './',
   './index.html',

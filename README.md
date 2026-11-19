@@ -25,7 +25,7 @@ Une mini-appli pour s'entraîner aux lettres qui changent de son : **c ou ç**, 
 - Design commun à toutes les applis (charte v1 : couleurs, formes, en-tête 🏠 · titre · ⚙).
 - S'installe sur l'écran d'accueil d'un téléphone ou d'une tablette et fonctionne hors ligne.
 
-Les progrès et les mots restent dans le navigateur de l'appareil (clé `marc.bon-son`) : aucun compte, et rien n'est envoyé sur internet.
+Les progrès et les mots restent dans le navigateur de l'appareil (clé `marc.bon-son`) : aucun compte, et rien sur les progrès n'est envoyé sur internet. Seul un compteur de visites anonyme (GoatCounter) compte les ouvertures de l'appli : pas de cookie, pas de nom.
 
 ## Fichiers
 
